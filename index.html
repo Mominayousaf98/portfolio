@@ -164,28 +164,157 @@
 
 
 <!-- work project section starts -->
-<section class="work" id="work">
-
-  <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
-
-  <div class="box-container">
-
-    <!-- <div class="box tilt">
-      <img draggable="false" src="./assets/images/projects/portfolio1.PNG" alt="" />
-      <div class="content">
-        <div class="tag">
-        <h3>Portfolio Website</h3>
-        </div>
-        <div class="desc">
-          <p>Personal portfolio website. Don't need much info about it, just scroll down. You're here only!</p>
-          <div class="btns">
-            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="https://github.com/jigar-sable/Portfolio-Website" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-          </div>
-        </div>
+<section class="projects" id="work">
+  <h2>My Projects</h2>
+  <div class="projects-container">
+    <!-- Project 1 -->
+    <div class="project">
+      <h3>14th Street Pizza</h3>
+      <img src="assets/images/projects/14street.jpg" alt="14th Street Pizza Project">
+      <div class="project-links">
+        <a href="https://www.14thstreetpizza.com/" target="_blank" class="btn">View Website</a>
+        <a href="https://www.figma.com/design/uX4nUJz5PbDicU1QWg2fTw/14th-street-pizza?node-id=0-1&t=ckzAnCwbwTZ7gOrF-1" target="_blank" class="btn">View Design (Figma)</a>
       </div>
-    </div> -->
+    </div>
 
+    <!-- Project 2 -->
+    <div class="project">
+      <h3>Craft Courses</h3>
+      <img src="assets/images/projects/craft.jpg" alt="Second Project">
+      <div class="project-links">
+        <a href="https://www.craftcourses.com/" target="_blank" class="btn">View Website</a>
+        <a href="https://www.figma.com/design/D5Uzg00H2HQIRhciVHPvaM/Untitled?node-id=0-1&t=EG61B7REGQWRTUZn-1" target="_blank" class="btn">View Design (Figma)</a>
+      </div>
+    </div>
+    <div class="project">
+      <h3>Gloria Jeans Coffee</h3>
+      <img src="assets/images/projects/jeans.jpg" alt="Second Project">
+      <div class="project-links">
+        <a href="https://gloriajeanscoffees.com.pk/" target="_blank" class="btn">View Website</a>
+        <a href="https://www.figma.com/design/0dveAmsSnuAg9OkyHwoFPT/Untitled?node-id=0-1&t=mcCvQTI3gDyIn4zh-1" target="_blank" class="btn">View Design (Figma)</a>
+      </div>
+    </div>
+    <div class="project">
+      <h3>Da Village App</h3>
+      <img src="assets/images/projects/vil.jpg" alt="Second Project">
+      <div class="project-links">
+        <a href="https://villagepizzahightown1.com/" target="_blank" class="btn">View Website</a>
+        <a href="https://www.figma.com/design/ARDjX5qeAyxtnrK6maVJMG/DA-VILLAGE?node-id=0-1&t=J2oYeUlclbS9S9HE-1" target="_blank" class="btn">View Design (Figma)</a>
+      </div>
+    </div>
+    <div class="project">
+      <h3>Khaadi</h3>
+      <img src="assets/images/projects/khad.jpg" alt="Second Project">
+      <div class="project-links">
+        <a href="https://uk.khaadi.com/" target="_blank" class="btn">View Website</a>
+        <a href="https://www.figma.com/design/saB52mSJtmHVgc7XttgzXq/Untitled?node-id=0-1&t=NtXfNnYSRBSrSIrr-1" target="_blank" class="btn">View Design (Figma)</a>
+      </div>
+    </div>
+    <div class="project">
+      <h3>My Portfolio</h3>
+      <img src="assets/images/projects/port.jpg" alt="Second Project">
+      <div class="project-links">
+        <a href="https://mominayousaf98.github.io/portflio/" target="_blank" class="btn">View Website</a>
+        
+      </div>
+    </div>
+    <div class="project">
+      <h3>Qisetna(Caravas On-Going Project)</h3>
+      <img src="assets/images/projects/caravas.jpg" alt="Second Project">
+      <div class="project-links">
+        <a href="https://caravasarts.eu/" target="_blank" class="btn">View Website</a>
+        
+      </div>
+    </div>
+    <div class="project">
+      <h3>Qisetna(Flying Dreams On-Going Project)</h3>
+      <img src="assets/images/projects/fly.jpg" alt="Second Project">
+      <div class="project-links">
+        <a href="https://caravasarts.eu/flying-dreams-home/" target="_blank" class="btn">View Website</a>
+        
+      </div>
+    </div>
+    
+
+    <!-- Add additional projects here following the same pattern -->
+  </div>
+  <style>
+    #projects h2{
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.projects-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns for better use of space */
+  gap: 20px; /* Space between the grid items */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Individual Project Card Styling */
+.project{
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project:hover{
+  transform: translateY(-10px); /* Hover effect to lift the card */
+}
+
+.project img{
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  max-height: 200px; /* Limit image height */
+  margin-bottom: 15px;
+}
+
+.project h3{
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Button Styling */
+.project .btn{
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: rgb(58, 11, 134);
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.project .btn:hover{
+  background-color: #0056b3;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .projects-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .projects-container {
+    grid-template-columns: 1fr; /* 1 column on very small screens */
+  }
+}
+  </style>
+</section>
 </div>
 
 
