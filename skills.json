@@ -1,0 +1,48 @@
+[
+    {
+        "name": "Figma",
+        "icon": "https://img.icons8.com/?size=100&id=zfHRZ6i1Wg0U&format=png&color=000000"
+    },
+    {
+        "name": "Adobe XD",
+        "icon": "https://img.icons8.com/?size=100&id=4VVL78edhbW9&format=png&color=000000"
+    },
+    {
+        "name": "Sketch",
+        "icon": "https://img.icons8.com/?size=100&id=40631&format=png&color=000000"
+    },
+    {
+        "name": "Bootstrap",
+        "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
+    },
+    {
+        "name": "WordPress",
+        "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
+    },  
+    {
+        "name": "HTML5",
+        "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+    },
+    {
+        "name": "CSS3",
+        "icon": "https://img.icons8.com/color/48/000000/css3.png"
+    },
+    {
+        "name": "JavaScript",
+        "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+    },
+    {
+        "name": "PHP",
+        "icon": "https://img.icons8.com/offices/48/000000/php-logo.png"
+    },
+    {
+        "name": "MySQL",
+        "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
+    },
+   
+    {
+        "name": "GitHub",
+        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+    }
+   
+]
