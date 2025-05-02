@@ -59,7 +59,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Jigar Sable";
+            document.title = "Portfolio | Momina Yousaf";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->UI/UX Designer/ Web Developer/ Digital Product Designer
 var typed = new Typed(".typing-text", {
-    strings: ["UI/UX Designing", "Web Developing", "Digital Product Designing"],
+    strings: ["UI/UX Designing", "Digital Content Manager", "Digital Product Designing"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
