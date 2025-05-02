@@ -69,14 +69,17 @@ document.addEventListener('visibilitychange',
     });
 
 
-// <!-- typed js effect starts -->UI/UX Designer/ Web Developer/ Digital Product Designer
-var typed = new Typed(".typing-text", {
+// <!-- typed js effect starts -->UI/UX Designer/ Digital Content Manager/ Digital Product Designer
+document.addEventListener("DOMContentLoaded", function() {
+  var typed = new Typed(".typing-text", {
     strings: ["UI/UX Designing", "Digital Content Manager", "Digital Product Designing"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
     backDelay: 500,
+  });
 });
+
 // <!-- typed js effect ends -->
 
 async function fetchData(type = "skills") {
